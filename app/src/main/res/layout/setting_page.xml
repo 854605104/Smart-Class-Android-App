@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/add_new"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/btn_circle"
+        android:text="OPEN CAMERA"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <Button
+        android:id="@+id/add_new_2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/add_new"
+        android:background="@drawable/btn_circle"
+        android:text="ADD FACE"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        />
+
+
+
+</RelativeLayout>
